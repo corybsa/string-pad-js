@@ -1,6 +1,8 @@
 string-pad-js
 =============
 
+A JavaScript method to pad any number of characters to the left or right of a string object.
+
 <pre><code>String.prototype.pad = function(side, char, maxLength) {
   var padding = "";
   
