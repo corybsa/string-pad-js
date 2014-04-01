@@ -16,7 +16,7 @@ A JavaScript method to pad any number of characters to the left or right of a st
 // example
 var myString = "1001";
 myString = myString.pad("left", "0", 8);
-console.log(myString);</code></pre>
+console.log(myString); // outputs "00001001"</code></pre>
 
 Pad a string either left or right, to any length, with any character.
 
